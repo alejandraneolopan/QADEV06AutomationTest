@@ -1,5 +1,12 @@
-D:\Eclipse\TestCases\my-app\src\test\java\lib\OutOfOrder.java
+D:\Eclipse\TestCases\my-app\src\test\java\pageObjects\NewLocationPage.java
+D:\Eclipse\TestCases\my-app\src\test\java\pageObjects\OutOfOrderPage.java
+D:\Eclipse\TestCases\my-app\src\test\java\pageObjects\LoginPage.java
 D:\Eclipse\TestCases\my-app\src\test\java\com\mycompany\app\AddLocationTest.java
+D:\Eclipse\TestCases\my-app\src\test\java\pageObjects\HomePage.java
+D:\Eclipse\TestCases\my-app\src\test\java\automationFramework\POM_TC.java
+D:\Eclipse\TestCases\my-app\src\test\java\config\Parameters.java
+D:\Eclipse\TestCases\my-app\src\test\java\pageObjects\LocationsPage.java
 D:\Eclipse\TestCases\my-app\src\test\java\utils\Generator.java
-D:\Eclipse\TestCases\my-app\src\test\java\lib\ConferenceRoom.java
+D:\Eclipse\TestCases\my-app\src\test\java\pageObjects\ConferenceRoomPage.java
 D:\Eclipse\TestCases\my-app\src\test\java\config\Connection.java
+D:\Eclipse\TestCases\my-app\src\test\java\automationFramework\AddLocationTest.java

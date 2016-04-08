@@ -3,7 +3,7 @@
 <suite name="Room-Location" verbose="1" >
   <test name="Add a Location to Admin GUI"   >
   <classes>
-  <class name="com.mycompany.app.AddLocationTest">
+  <class name="automationFramework.AddLocationTest">
       <methods>
         <include name="testAddLocation" />
       </methods>

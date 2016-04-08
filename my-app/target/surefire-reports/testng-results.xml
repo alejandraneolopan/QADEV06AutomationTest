@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Room-Location" duration-ms="6636" started-at="2016-04-08T18:00:11Z" finished-at="2016-04-08T18:00:17Z">
+  <suite name="Room-Location" duration-ms="8837" started-at="2016-04-08T22:31:22Z" finished-at="2016-04-08T22:31:31Z">
     <groups>
       <group name="unit">
-        <method signature="AddLocationTest.testAddLocation()[pri:0, instance:com.mycompany.app.AddLocationTest@13d285f]" name="testAddLocation" class="com.mycompany.app.AddLocationTest"/>
+        <method signature="AddLocationTest.testAddLocation()[pri:0, instance:automationFramework.AddLocationTest@16bf9ce]" name="testAddLocation" class="automationFramework.AddLocationTest"/>
       </group> <!-- unit -->
     </groups>
-    <test name="Add a Location to Admin GUI" duration-ms="6636" started-at="2016-04-08T18:00:11Z" finished-at="2016-04-08T18:00:17Z">
-      <class name="com.mycompany.app.AddLocationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mycompany.app.AddLocationTest@13d285f]" name="setUp" is-config="true" duration-ms="12386" started-at="2016-04-08T13:59:58Z" finished-at="2016-04-08T14:00:11Z">
+    <test name="Add a Location to Admin GUI" duration-ms="8837" started-at="2016-04-08T22:31:22Z" finished-at="2016-04-08T22:31:31Z">
+      <class name="automationFramework.AddLocationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.AddLocationTest@16bf9ce]" name="setUp" is-config="true" duration-ms="11006" started-at="2016-04-08T18:31:11Z" finished-at="2016-04-08T18:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAddLocation()[pri:0, instance:com.mycompany.app.AddLocationTest@13d285f]" name="testAddLocation" duration-ms="6615" started-at="2016-04-08T14:00:11Z" finished-at="2016-04-08T14:00:17Z">
+        <test-method status="PASS" signature="testAddLocation()[pri:0, instance:automationFramework.AddLocationTest@16bf9ce]" name="testAddLocation" duration-ms="8814" started-at="2016-04-08T18:31:22Z" finished-at="2016-04-08T18:31:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddLocation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mycompany.app.AddLocationTest@13d285f]" name="tearDown" is-config="true" duration-ms="1347" started-at="2016-04-08T14:00:18Z" finished-at="2016-04-08T14:00:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.AddLocationTest@16bf9ce]" name="tearDown" is-config="true" duration-ms="2084" started-at="2016-04-08T18:31:31Z" finished-at="2016-04-08T18:31:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mycompany.app.AddLocationTest -->
+      </class> <!-- automationFramework.AddLocationTest -->
     </test> <!-- Add a Location to Admin GUI -->
   </suite> <!-- Room-Location -->
 </testng-results>
