@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.AddLocationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.372 sec <<< FAILURE!
+testAddLocation(com.mycompany.app.AddLocationTest)  Time elapsed: 5.203 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (89, 261). Other element would receive the click: <div tabindex="-1" ng-class="{in: modalIn}" class="modal fade in" style="z-index: 1050; display: block;"></div>
+Command duration or timeout: 381 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QDEV05DALNE001', ip: '172.20.200.76', os.name: 'Windows NT (unknown)', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_04'
+Session ID: 110abbfd-fdec-4ea8-a1c5-2086508a4faf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=42.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.mycompany.app.AddLocationTest.testAddLocation(AddLocationTest.java:48)
+
+tearDown(com.mycompany.app.AddLocationTest)  Time elapsed: 5.436 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (1078, 25.5). Other element would receive the click: <div tabindex="-1" ng-class="{in: modalIn}" class="modal fade in" style="z-index: 1050; display: block;"></div>
+Command duration or timeout: 142 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QDEV05DALNE001', ip: '172.20.200.76', os.name: 'Windows NT (unknown)', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_04'
+Session ID: 110abbfd-fdec-4ea8-a1c5-2086508a4faf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=42.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.mycompany.app.AddLocationTest.tearDown(AddLocationTest.java:66)
+

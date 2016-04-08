@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Room-Location" verbose="1" >
+  <test name="Add a Location to Admin GUI"   >
+  <classes>
+  <class name="com.mycompany.app.AddLocationTest">
+      <methods>
+        <include name="testAddLocation" />
+      </methods>
+    </class>
+ </classes>
+ 
+ </test>
+</suite>
