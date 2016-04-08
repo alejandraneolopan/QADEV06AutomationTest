@@ -1,14 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
  
 <suite name="Room-Location" verbose="1" >
-  <test name="Add a Location to Admin GUI"   >
-  <classes>
-  <class name="automationFramework.AddLocationTest">
-      <methods>
-        <include name="testAddLocation" />
-      </methods>
-    </class>
- </classes>
- 
+  <test name="5 test cases"   >
+  <!--  <groups>
+      <define name="include-group">
+        <include name="unit" />
+      </define>
+      <run>
+        <include name="include-group" />
+      </run>
+    </groups> -->
+    <classes>
+      <class name="automationFramework.AddLocationTest" /> 
+      <class name="automationFramework.OutOfOrderTest" />
+    </classes>
  </test>
 </suite>

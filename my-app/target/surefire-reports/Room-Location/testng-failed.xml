@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Room-Location]">
-  <test name="Add a Location to Admin GUI(failed)">
+  <test name="5 test cases(failed)">
     <classes>
       <class name="automationFramework.AddLocationTest">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- automationFramework.AddLocationTest -->
     </classes>
-  </test> <!-- Add a Location to Admin GUI(failed) -->
+  </test> <!-- 5 test cases(failed) -->
 </suite> <!-- Failed suite [Room-Location] -->
