@@ -29,7 +29,7 @@ public class ConferenceRoomPage {
 	 }
 	 public ConferenceRoomPage ClickOnRoom(String roomName)
 	 {
-		 WebElement roomElement = Driver.findElement(By.xpath("//span[contains(text()," + roomName + "')][2]"));
+		 WebElement roomElement = Driver.findElement(By.xpath("//span[contains(text(),'" + roomName + "')][2]"));
 			roomElement.click();
 			doubleclick(Driver, roomElement);
 		    return this;

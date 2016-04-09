@@ -36,7 +36,7 @@ public class HomePage {
 		
 	}
 	public ConferenceRoomPage clickOnRooms() {
-		driver.findElement(By.linkText("Locations")).click();
+		driver.findElement(By.linkText("Conference Rooms")).click();
 		return new ConferenceRoomPage(driver);
 		
 	}

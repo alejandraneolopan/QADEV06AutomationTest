@@ -34,7 +34,7 @@ public class LocationsPage {
      public LocationsPage refreshPage()
      {
     	 wait= new WebDriverWait (driver,20);
-    	 wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Issues")));
+    	 wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Issues")));
     	 driver.findElement(By.linkText("Issues")).click();
     	 driver.findElement(By.linkText("Locations")).click();
     	 wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ngLabel.ng-binding")));

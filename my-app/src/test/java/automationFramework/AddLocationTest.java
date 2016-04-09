@@ -3,9 +3,7 @@ import utils.Generator;
 import config.Connection;
 import org.testng.Assert;
 import org.openqa.selenium.*;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import pageObjects.*;
 
@@ -17,7 +15,7 @@ public class AddLocationTest {
   HomePage home;
   LocationsPage location;
   
-  @BeforeSuite
+  @BeforeTest
   public void setUp() throws Exception {
 	  driver = new Connection().initPage();
 	  login = new LoginPage(driver);
@@ -45,7 +43,7 @@ public class AddLocationTest {
    location.deleteLocation(locationName);
   }
 
-  @AfterSuite
+  @AfterTest
   public void tearDown() throws Exception {
 	login.signOut();
     driver.quit();

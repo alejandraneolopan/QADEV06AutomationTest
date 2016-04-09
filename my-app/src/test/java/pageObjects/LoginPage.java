@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -51,8 +52,8 @@ public class LoginPage {
     	}
 
 	public void signOut() {
-		WebDriverWait wait = new WebDriverWait (driver,10);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'sign out')]/parent::a")));
+		WebDriverWait wait = new WebDriverWait (driver,20);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'sign out')]/parent::a")));
 		WebElement element = driver.findElement(By.xpath("//span[contains(text(),'sign out')]/parent::a"));
 		Actions actions = new Actions(driver);
 		actions.click(element).click().build().perform();
