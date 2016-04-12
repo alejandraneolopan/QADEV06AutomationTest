@@ -11,8 +11,10 @@
       </run>
     </groups> -->
     <classes>
-      <class name="automationFramework.AddLocationTest" /> 
-      <class name="automationFramework.OutOfOrderTest" />
+    <!--  -->
+      <class name="automationFramework.OutOfOrderTest" /> 
+      <class name="automationFramework.AddLocationTest" />
+    <!--   <class name="automationFramework.AssociateResourceToRoom"/> -->
     </classes>
  </test>
 </suite>

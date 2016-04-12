@@ -1,0 +1,14 @@
+pageObjects\LocationsPage.class
+automationFramework\AssociateResourceToRoom.class
+automationFramework\ModifyConferenceRoom.class
+automationFramework\OutOfOrderTest.class
+pageObjects\NewLocationPage.class
+config\Connection.class
+config\Parameters.class
+pageObjects\OutOfOrderPage.class
+automationFramework\FilterByResource.class
+pageObjects\HomePage.class
+utils\Generator.class
+pageObjects\LoginPage.class
+automationFramework\AddLocationTest.class
+pageObjects\ConferenceRoomPage.class

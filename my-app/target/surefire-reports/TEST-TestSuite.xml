@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="9.796" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="31.867" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_04\jre\bin"/>
@@ -21,7 +21,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_04\jre\lib\endorsed"/>
     <property name="os.arch" value="x86"/>
-    <property name="java.io.tmpdir" value="C:\Users\ALEJAN~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\ALEJAN~1\AppData\Local\Temp\2\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
@@ -60,5 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="testAddLocation" classname="automationFramework.AddLocationTest" time="9.796"/>
+  <testcase name="testCreateOutOfOrder" classname="automationFramework.OutOfOrderTest" time="21.561"/>
+  <testcase name="testAddLocation" classname="automationFramework.AddLocationTest" time="10.306"/>
 </testsuite>

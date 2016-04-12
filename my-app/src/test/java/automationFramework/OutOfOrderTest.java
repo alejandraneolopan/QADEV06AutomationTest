@@ -17,7 +17,7 @@ public class OutOfOrderTest {
   LoginPage login;
   HomePage home;
  
-  @BeforeTest
+  @BeforeClass
   public void setUp() throws Exception {
 	  driver = new Connection().initPage();
 	  login = new LoginPage(driver);
@@ -30,6 +30,7 @@ public class OutOfOrderTest {
 	String roomToApply="CENTRAL-F1R04";
 	/*Test*/
 	Rooms = home
+			.WaitTitle(10)
 			.clickOnRooms()
 			.WaitRooms(20)
 			.ClickOnRoom(roomToApply)
@@ -42,9 +43,9 @@ public class OutOfOrderTest {
    
   }
 
-  @AfterTest
+  @AfterClass
   public void tearDown() throws Exception {
-    driver.findElement(By.cssSelector("a > span")).click();
+  //  driver.findElement(By.cssSelector("a > span")).click();
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {

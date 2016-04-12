@@ -3,6 +3,13 @@
 <suite verbose="0" name="Failed suite [Room-Location]">
   <test name="5 test cases(failed)">
     <classes>
+      <class name="automationFramework.OutOfOrderTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCreateOutOfOrder"/>
+        </methods>
+      </class> <!-- automationFramework.OutOfOrderTest -->
       <class name="automationFramework.AddLocationTest">
         <methods>
           <include name="testAddLocation"/>

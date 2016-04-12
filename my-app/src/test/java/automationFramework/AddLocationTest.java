@@ -15,7 +15,7 @@ public class AddLocationTest {
   HomePage home;
   LocationsPage location;
   
-  @BeforeTest
+  @BeforeClass
   public void setUp() throws Exception {
 	  driver = new Connection().initPage();
 	  login = new LoginPage(driver);
@@ -26,6 +26,7 @@ public class AddLocationTest {
   public void testAddLocation() throws Exception {
 	String locationName = rand.getRandString();
 	location = home
+			.WaitTitle(10)
 			.clickOnLocations()
 			.WaitForTitle()
 			.PressAddButton()
@@ -43,9 +44,9 @@ public class AddLocationTest {
    location.deleteLocation(locationName);
   }
 
-  @AfterTest
+  @AfterClass
   public void tearDown() throws Exception {
-	login.signOut();
+//	login.signOut();
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
